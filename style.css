@@ -1,0 +1,249 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+
+}
+
+
+.pre_header {
+
+	background-color:black;
+	color:white;
+	height:60px;
+	padding-top:17px;
+}
+
+.pre_header p {
+
+	font-family:algerian;
+}
+
+.pre_header ul {
+
+	list-style:none;
+}
+
+.pre_header .secondary_menu li {
+
+	display:inline-block;
+	margin-left:15px;
+
+
+
+}
+
+.pre_header .secondary_menu li a {
+	color:gray;
+	text-transform:uppercase;
+	font-family:algerian;
+	font-style:italic;
+	 text-decoration: none;
+}
+
+
+.main_nav {
+
+	
+	height:60px;
+	padding:17px;
+}
+
+.main_nav  img {
+	 width: 50px;
+    height: 50px;
+    margin-top:-12px;
+    border-radius:50px;
+    
+
+}
+
+.main_nav ul {
+	list-style:none;
+	margin-top:3px;
+}
+
+.main_nav .main_menu li {
+
+	display:inline-block;
+	margin-left:18px;
+}
+
+.main_nav .main_menu li a {
+	color:gray;
+	font-style:italic;
+	 text-decoration: none;
+	 font-family:algerian;
+
+}
+
+.button  {
+	background-color: blue;
+	padding:10px;
+	color:white !important;
+	border:1px solid black;
+	transition:0.3s;
+	text-decoration: none;
+	font-family: algerian;
+
+
+}
+
+.button:hover {
+
+	color:blue !important;
+	background-color: transparent;
+}
+
+.hero_section {
+	background-image:url(slike/elite.png);
+	height:600px;
+}
+
+.hero_section h1 {
+	color:white;
+	text-transform: uppercase;
+	font-family: algerian;
+	padding-top:43px;
+}
+
+.hero_section p {
+	color:white;
+	font-family: perpetua;
+	font-size:25px;
+}
+
+.services_section {
+	padding-top:115px;
+	padding-bottom: 115px;
+}
+
+.services_section h4 {
+text-align:center;
+
+}
+
+.services_section h2 {
+text-align:center;
+
+}
+
+.services_section p {
+text-align:center;
+font-family:algerian;
+}
+
+.services_section a {
+	text-decoration: none;
+}
+
+.services_section .klavir {
+height: 130px;
+margin-left: 40px;
+
+
+}
+
+.services_section .bubanj {
+height: 150px;
+margin-left: 90px;
+}
+
+.services_section .gitara {
+  height: 150px;
+  margin-left: 130px;
+  padding-top: 10px;
+}
+
+.services_section .service_item {
+	background-color: #1b1f20;
+    height: 240px;
+    width: 330px;
+
+}
+.services_section .service_item:hover {
+
+		background-color:purple;
+		cursor:pointer;
+		margin-top:-20px;
+
+}
+
+.services_section .service_item h4 {
+	color:white;
+}
+
+.services_section .service_item p {
+	color:black;
+}
+
+.video_section {
+	background-color: greenyellow;
+}
+
+.video_section img {
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:200px;
+}
+
+.video_section .modal .modal-dialog {
+
+	max-width:700px;
+}
+
+.video_section .modal .modal-dialog .modal-content .modal-header {
+	border-bottom:0;
+}
+
+.video_section .modal .modal-dialog .modal-content {
+	background-color: transparent;
+	border:0;
+}
+
+.profili {
+	padding-top:100px;
+	padding-bottom:100px;
+	margin-left:150px;
+	margin-right:150px;
+}
+
+.profili .profili_sep {
+
+	height:370px;
+	background-size:cover;
+
+
+}
+
+.profili .profili_sep .poj {
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	color:white;
+	position:relative;
+}
+
+.profili .profili_sep .poj .tekst {
+	position:absolute;
+	bottom:20px;
+	margin-left:100px;
+	border-bottom: 1px dotted;
+
+}
+
+
+.profili .profili_sep .poj .tekst:before {
+	content:"";
+    display: block;
+    width: 3px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    left: -7px;
+    top: 8px;
+
+}
